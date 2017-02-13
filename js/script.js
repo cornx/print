@@ -5,7 +5,7 @@ function sifra() {
     var unos = prompt("Upiši šifru kako bi vidio sadržaj");
     if (unos === null || unos === undefined || unos === "") {
        pokrivac.classList = "pokrivac";
-    } else if (unos === "alfa") {
+    } else if (unos === "print") {
         pokrivac.classList = "";
     } else {
         pokrivac.classList = "pokrivac";
